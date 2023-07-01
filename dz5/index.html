@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            height: 100vh;
+        }
+        .wrapper>div{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .usd{
+            margin-top: 50px;
+        }
+        input{
+            padding: 10px 20px;
+        }
+        label{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="usd">
+            <label for="som">Som</label>
+            <input type="text" id="som">
+            <label for="usd">Usd</label>
+            <input type="text" id="usd">
+            <label for="eur">Eur</label>
+            <input type="text" id="eur">
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
